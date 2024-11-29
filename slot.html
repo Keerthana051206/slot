@@ -1,32 +1,6 @@
-# Ex03 Time Table
-## Date:25.11.24
-
-## AIM
-To write a html webpage page to display your slot timetable.
-
-## ALGORITHM
-### STEP 1
-Create a Django-admin Interface.
-
-### STEP 2
-Create a static folder and inert HTML code.
-
-### STEP 3
-Create a simple table using ```<table>``` tag in html.
-
-### STEP 4
-Add header row using ```<th>``` tag.
-
-### STEP 5
-Add your timetable using ```<td>``` tag.
-
-### STEP 6
-Execute the program using runserver command.
-
-## PROGRAM
-```
 <html>
     <body>
+    <img src="log.png">
         <table border="1" cellpadding="2">
             <caption>SLOT TIME TABLE-KEERTHANA.C(24002514)</caption>
             <tr bgcolor="green">
@@ -40,11 +14,10 @@ Execute the program using runserver command.
             </tr>
             <tr>
                 <td bgcolor="green">8-10</td>
-                <td bgcolor="yellow" colspan="1">Free slot</td>
-                 <td bgcolor="yellow">FWAD</td>
+                <td bgcolor="yellow" colspan="2">Free slot</td>
                 <td bgcolor="yellow">Mat</td>
                 <td bgcolor="yellow">Eng</td>
-                <td bgcolor="yellow">free slot</td>
+                <td bgcolor="yellow">FWAD</td>
                 <td bgcolor="yellow">Free slot</td>
             </tr>
             <tr>
@@ -62,16 +35,18 @@ Execute the program using runserver command.
             </tr>
             <tr>
                 <td bgcolor="green">1-3</td>
-                <td bgcolor="yellow">BEEE </td>
-                <td bgcolor="yellow">Chem<</td>
+                <td bgcolor="yellow">FWAD</td>
+                <td bgcolor="yellow">FWAD</td>
                 <td bgcolor="yellow">Mentor </td>
                 <td bgcolor="yellow">Free slot</td>
-                <td bgcolor="yellow">FWAD</td>
-                <td bgcolor="yellow">FWAD</td>
+                <td bgcolor="yellow">BEEE</td>
+                <td bgcolor="yellow">Chem</td>
             </tr>
             <tr>
                 <td bgcolor="green">3-5</td>
-                <td bgcolor="yellow" colspan="5">Free slot</td>
+                <td bgcolor="yellow" colspan="2">Free slot</td>
+                <td bgcolor="yellow">Chem</td>
+                <td bgcolor="yellow" colspan="3">Free slot</td>
             </tr>
         </table>
         <table border="1">
@@ -123,13 +98,3 @@ Execute the program using runserver command.
         </table>
     </body>
 </html>
-
-
-
-```
-## OUTPUT
-[Alt text](<Screenshot (14).png>)
-
-
-## RESULT
-The program for creating slot timetable using basic HTML tags is executed successfully.
